@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>by camera ro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-nav" aria-label="Main navigation">
+    <a class="brand" href="#top">by camera ro</a>
+    <nav class="categories" aria-label="Categories">
+      <button class="category active" data-category="architecture" type="button">Architecture</button>
+      <button class="category" data-category="portrait" type="button">Portrait</button>
+    </nav>
+  </header>
+
+  <div id="top"></div>
+  <main id="gallery" class="gallery" aria-label="Photography portfolio"></main>
+
+  <div id="viewer" class="viewer" aria-hidden="true">
+    <button class="close" type="button" aria-label="Close">×</button>
+    <button class="nav prev" type="button" aria-label="Previous photo"></button>
+    <figure class="viewer-figure"><img id="viewer-image" alt=""></figure>
+    <button class="nav next" type="button" aria-label="Next photo"></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
